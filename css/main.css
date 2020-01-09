@@ -169,6 +169,22 @@ svg {
   .top_mnu ul {
     margin-top: 120px;
     text-align: center; }
+    .top_mnu ul li:nth-child(1) a {
+      -webkit-animation-duration: 0.5s;
+      -moz-animation-duration: 0.5s;
+      animation-duration: 0.5s; }
+    .top_mnu ul li:nth-child(2) a {
+      -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+      animation-duration: 1s; }
+    .top_mnu ul li:nth-child(3) a {
+      -webkit-animation-duration: 1.5s;
+      -moz-animation-duration: 1.5s;
+      animation-duration: 1.5s; }
+    .top_mnu ul li:nth-child(4) a {
+      -webkit-animation-duration: 2s;
+      -moz-animation-duration: 2s;
+      animation-duration: 2s; }
     .top_mnu ul a {
       color: #fff;
       display: block;
@@ -207,7 +223,10 @@ svg {
     display: block; }
     .top_wrapper .top_text p {
       margin: 0;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      -webkit-animation-delay: 1.5s;
+      -moz-animation-delay: 1.5s;
+      animation-delay: 1.5s; }
     .top_wrapper .top_text h1 {
       display: inline-block;
       padding: 10px 35px;
@@ -217,7 +236,10 @@ svg {
       font-weight: bold;
       font-size: 2.8em;
       margin-left: 20px;
-      margin-right: 20px; }
+      margin-right: 20px;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      animation-delay: 1s; }
 
 .h_opacity {
   opacity: 0.3;
