@@ -57,4 +57,13 @@ section h3 {
 .personal_header {
   letter-spacing: 2px; }
 
+.resume_container h3 {
+  color: #222;
+  letter-spacing: 1px; }
+.resume_container .resume_item .year {
+  background-color: #FF6347;
+  color: #fff; }
+.resume_container .resume_item .resume_descr {
+  letter-spacing: 1px; }
+
 /*# sourceMappingURL=tomato.css.map */

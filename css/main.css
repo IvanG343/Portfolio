@@ -27,7 +27,7 @@ section,
     text-align: center;
     text-transform: uppercase;
     font-weight: 400;
-    font-style: 12px;
+    font-size: 12px;
     margin-top: 0;
     margin-bottom: 35px; }
 
@@ -266,7 +266,8 @@ svg {
   font-weight: 300; }
 
 .person {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 35px; }
   .person img {
     max-width: 220px;
     display: inline-block;
@@ -288,5 +289,46 @@ svg {
   display: inline-block;
   font-size: 20px;
   padding: 0 3px; }
+
+.resume_container .left {
+  text-align: right;
+  border-right: #d2d2d2 1px solid; }
+  .resume_container .left .resume_descr {
+    margin-left: 10px; }
+  .resume_container .left h3 {
+    text-align: right; }
+.resume_container .right {
+  text-align: left; }
+  .resume_container .right .resume_descr {
+    margin-right: 10px; }
+  .resume_container .right h3 {
+    text-align: left; }
+.resume_container h3 {
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 16px; }
+.resume_container .resume_icon {
+  font-size: 40px;
+  margin-bottom: 35px; }
+.resume_container .resume_item {
+  margin-bottom: 35px; }
+  .resume_container .resume_item p {
+    margin-top: 10px; }
+  .resume_container .resume_item:last-child {
+    margin-bottom: 0; }
+    .resume_container .resume_item:last-child p {
+      margin-bottom: 0; }
+.resume_container .year {
+  display: inline-block;
+  padding: 0 15px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-style: italic; }
+.resume_container .resume_descr {
+  font-style: italic; }
+  .resume_container .resume_descr strong {
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase; }
 
 /*# sourceMappingURL=main.css.map */

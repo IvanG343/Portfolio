@@ -3,8 +3,8 @@ $(document).ready(function() {
 	$(".popup").magnificPopup({type:"image"});
 
 	$(".animation_flip").animated("flipInY", "flipOutY");
-	$(".animation_left").animated("fadeInLeft", "fadeOutLeft");
-	$(".animation_right").animated("fadeInRight", "fadeOutRight");
+	$(".animation_left, .left .resume_item").animated("fadeInLeft", "fadeOutLeft");
+	$(".animation_right, .right .resume_item").animated("fadeInRight", "fadeOutRight");
 
 	function heightDetect() {
 		$(".main_head").css("height", $(window).height());
