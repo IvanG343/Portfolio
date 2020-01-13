@@ -49,6 +49,10 @@ $(document).ready(function() {
 		$(this).find(".port_descr").attr("id", "work_" + i);
 	});
 
+	$("input, select, textarea").not("[type=submit]").jqBootstrapValidation();
+
+	$(".top_mnu ul a").mPageScroll2id();
+
 });
 
 $(window).load(function() {

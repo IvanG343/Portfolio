@@ -46,10 +46,10 @@
 					</button>
 					<nav class="top_mnu">
 						<ul>
-							<li><a href="">Обо мне</a></li>
-							<li><a href="">Резюме</a></li>
-							<li><a href="">Портфолио</a></li>
-							<li><a href="">Контакты</a></li>
+							<li><a href="#about">Обо мне</a></li>
+							<li><a href="#resume">Резюме</a></li>
+							<li><a href="#portfolio">Портфолио</a></li>
+							<li><a href="#contacts">Контакты</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -93,7 +93,7 @@
 						<ul>
 							<li>Профессиональное создание сайтов: разработка дизайна, HTML вёртска, посадка на CMS WordPress</li>
 							<li>День рождения: 3 июня 1988</li>
-							<li>Номер телефона: +7999 999 99 99</li>
+							<li>Номер телефона: +7(999)999-99-99</li>
 							<li>E-mail: <a href="mailto:mymail@gmail.com">mymail@gmail.com</a></li>
 							<li>Веб-сайт: <a href="mysite.com" target="_blank">mysite.com</a></li>
 						</ul>
@@ -326,7 +326,43 @@
 		<div class="section_content">
 			<div class="container">
 				<div class="row">
-					asdasd
+					<div class="col-md-6 col-sm-6">
+						<div class="contact_box">
+							<div class="contacts_icon icon-basic-geolocalize-05"></div>
+							<h3>Адрес:</h3>
+							<p>Lorem ipsum dolor sit amet.</p>
+						</div>
+						<div class="contact_box">
+							<div class="contacts_icon icon-basic-smartphone"></div>
+							<h3>Телефон:</h3>
+							<p>+7(999)999-99-99</p>
+						</div>
+						<div class="contact_box">
+							<div class="contacts_icon icon-basic-webpage-img-txt"></div>
+							<h3>Веб-сайт::</h3>
+							<p><a href="#" target="_blank">MySite.com</a></p>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<form action="" class="my_form" novalidate>
+							<label class="form-group">
+								<span class="color_element">*</span> Ваше имя:
+								<input type="text" name="name" placeholder="Ваше имя" data-validation-required-message="Укажите имя" required>
+								<span class="help-block text_danger"></span>
+							</label>
+							<label class="form-group">
+								<span class="color_element">*</span> Ваш E-mail:
+								<input type="email" name="email" placeholder="Ваш E-mail" data-validation-required-message="Укажите E-mail" required>
+								<span class="help-block text_danger"></span>
+							</label>
+							<label class="form-group">
+								<span class="color_element">*</span> Ваше сообщение:
+								<textarea name="message" placeholder="Ваше сообщение" data-validation-required-message="Вы не ввели текст сообщения" required></textarea>
+								<span class="help-block text_danger"></span>
+							</label>
+							<button>Отправить</button>
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -362,6 +398,7 @@
 		<script src="libs/scroll2id/PageScroll2id.min.js"></script>
 		<script src="libs/waypoints/waypoints.min.js"></script>
 		<script src="libs/animate/animate-css.js"></script>
+		<script src="libs/jqBootstrapValidation/jqBootstrapValidation.js"></script>
 		<script src="js/common.js"></script>
 		<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 		<!-- Google Analytics counter --><!-- /Google Analytics counter -->

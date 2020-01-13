@@ -80,4 +80,23 @@ section h3 {
 .main_footer a {
   color: #FF6347; }
 
+.contacts_icon {
+  color: #FF6347; }
+
+.text_danger {
+  color: #FF6347; }
+
+.my_form input:focus,
+.my_form textarea:focus {
+  border: 1px solid #FF6347; }
+.my_form input,
+.my_form textarea {
+  letter-spacing: 2px; }
+.my_form button {
+  background-color: #FF6347;
+  letter-spacing: 2px; }
+.my_form .form-group {
+  letter-spacing: 2px;
+  color: #888; }
+
 /*# sourceMappingURL=tomato.css.map */
