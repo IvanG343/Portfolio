@@ -90,13 +90,14 @@ section {
     position: absolute; }
 
 .logo_container {
-  float: left; }
-
-svg {
-  height: 60px;
-  width: 60px;
+  float: left;
   z-index: 100;
-  position: relative; }
+  position: relative;
+  top: 20px; }
+  .logo_container img {
+    width: 50%;
+    z-index: 100;
+    position: relative; }
 
 .toggle_mnu {
   width: 60px;
